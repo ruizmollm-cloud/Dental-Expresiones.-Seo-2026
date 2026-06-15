@@ -31,7 +31,7 @@ export default function Location() {
             <div className="overflow-hidden rounded-2xl">
               <iframe
                 title="Ubicación de Dental Expresiones en Portal Solé, Carretera a El Salvador"
-                src="https://embed.waze.com/iframe?zoom=16&lat=14.529870&lon=-90.465138&ct=livemap"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3861.6424564883584!2d-90.46738982485303!3d14.534214178125868!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8589a3f2d2b67f1b%3A0x6a2e2d8b4e7e6f8d!2sPortal%20Sol%C3%A9!5e0!3m2!1ses-419!2sgt!4v1718492000000!5m2!1ses-419!2sgt"
                 width="100%"
                 height="450"
                 style={{ border: 0, borderRadius: '12px' }}
@@ -51,15 +51,15 @@ export default function Location() {
                 </p>
               </div>
               <a
-                href="https://waze.com/ul/h9fxdtmj69"
+                href="https://waze.com/ul?ll=14.534214,-90.465195&navigate=yes"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center space-x-2 text-teal-600 hover:text-teal-700 font-medium transition-colors duration-200"
+                className="inline-flex items-center space-x-2 px-6 py-3 bg-[#33ccff] hover:bg-[#1ab8ec] text-white font-bold rounded-lg shadow-md transition-colors duration-200"
               >
                 <svg className="w-5 h-5" viewBox="0 0 24 24" fill="currentColor">
                   <path d="M21.5 10.5c0-5.25-4.25-9.5-9.5-9.5S2.5 5.25 2.5 10.5c0 2.39.88 4.57 2.34 6.23L12 23l7.16-6.27c1.46-1.66 2.34-3.84 2.34-6.23zM12 13a2.5 2.5 0 110-5 2.5 2.5 0 010 5z"/>
                 </svg>
-                <span>Abrir en Waze</span>
+                <span>Cómo llegar con Waze</span>
               </a>
             </div>
           </div>
