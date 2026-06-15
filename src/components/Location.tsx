@@ -28,17 +28,17 @@ export default function Location() {
         >
           <div className="absolute inset-0 bg-gradient-to-br from-teal-400/30 to-teal-600/30 rounded-3xl blur-2xl"></div>
           <div className="relative bg-gradient-to-br from-slate-100 to-white p-8 rounded-3xl shadow-2xl border border-slate-200">
-            <div className="aspect-video rounded-2xl overflow-hidden">
+            <div className="overflow-hidden rounded-2xl">
               <iframe
-                title="Ubicación de Dental Expresiones en Carretera a El Salvador"
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3860.2859733575614!2d-90.5042696!3d14.6396821!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8589a3ab11e9f297%3A0x6b4fb2bbfd7398b1!2sDental%20Expresiones!5e0!3m2!1ses!2sgt!4v1718485200000!5m2!1ses!2sgt"
+                title="Ubicación de Dental Expresiones en Portal Solé, Carretera a El Salvador"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3861.332711684784!2d-90.415174!3d14.551525!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8589a311653841e7%3A0x7fe4090ab05018a1!2sPortal%20Sol%C3%A9!5e0!3m2!1ses!2sgt!4v1718485200000!5m2!1ses!2sgt"
                 width="100%"
-                height="100%"
-                style={{ border: 0 }}
+                height="450"
+                style={{ border: 0, borderRadius: '12px' }}
                 allowFullScreen={true}
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
-                className="w-full h-full"
+                className="w-full"
               ></iframe>
             </div>
             <div className="mt-6 space-y-3">
@@ -47,7 +47,7 @@ export default function Location() {
                   <path fillRule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clipRule="evenodd" />
                 </svg>
                 <p className="text-slate-700 leading-relaxed text-sm">
-                  Dental Expresiones | Km 18.5, Carretera a El Salvador, Guatemala. | Teléfono: +502 5513-9358. Clínica dental en Carretera al Salvador, atendiendo la zona de Fraijanes y Santa Catarina Pinula.
+                  Km 18.5, Carretera a El Salvador, Portal Solé, 2do nivel, local 15, Guatemala. Teléfono: +502 5513-9358.
                 </p>
               </div>
               <a
