@@ -33,7 +33,7 @@ export default function Services() {
     {
       icon: Microscope,
       title: 'Primera Consulta',
-      description: 'El primer paso de tu sonrisa perfecta con claridad y calma. Evaluación completa con tecnología de punta.',
+      description: 'El primer paso hacia tu sonrisa, con claridad y calma. Una evaluación completa donde te explicamos cada hallazgo y diseñamos un plan a tu medida, sin prisas ni tecnicismos.',
       features: ['Scanner 3D', 'Evaluación completa', 'Plan de tratamiento personalizado'],
       color: 'from-blue-500 to-blue-600',
       image: '/primera-consulta.png',
@@ -42,7 +42,7 @@ export default function Services() {
     {
       icon: Sparkles,
       title: 'Blanqueamiento Dental',
-      description: 'Recupera el blanco natural de tus dientes con nuestros tratamientos de blanqueamiento profesional. Resultados visibles desde la primera sesión.',
+      description: 'Tomar la decisión de iluminar tu sonrisa debe ser una experiencia cómoda y sin sorpresas. Nuestro enfoque en blanqueamiento dental en Carretera al Salvador se centra en el cuidado minucioso de tu sensibilidad. Evaluamos tu caso con total claridad, explicándote el proceso paso a paso para que recuperes un tono brillante y natural en un ambiente de absoluta calma, confianza y respaldo profesional.',
       features: ['Tecnología láser avanzada', 'Sin sensibilidad dental', 'Resultados duraderos'],
       color: 'from-teal-500 to-teal-600',
       image: '/blanqueamiento-dental.png',
@@ -62,7 +62,7 @@ export default function Services() {
     {
       icon: Braces,
       title: 'Carillas Directas e Indirectas',
-      description: 'Transforma tu sonrisa con carillas de resina aplicadas directamente. Solución rápida y estética para corregir imperfecciones dentales.',
+      description: 'El diseño de carillas directas e indirectas es un proceso artesanal y clínico que requiere, ante todo, entender tus expectativas. En lugar de aplicar soluciones genéricas, nos tomamos el tiempo de escuchar y analizar la armonía de tu rostro. Diseñamos con precisión y delicadeza en CAES, asegurándote un resultado discreto y natural, guiado por profesionales que priorizan tu tranquilidad y el cuidado de tu salud en cada sesión.',
       features: ['Procedimiento en una sola sesión', 'Resultados inmediatos', 'Mínima preparación dental'],
       color: 'from-rose-500 to-rose-600',
       image: '/carillas-dentales.png',
@@ -71,7 +71,7 @@ export default function Services() {
     {
       icon: FileText,
       title: 'Rellenos Estéticos',
-      description: 'Tratamiento de caries con materiales de composite del color de tus dientes. Restauraciones invisibles y duraderas.',
+      description: 'Restauración avanzada utilizando resinas estéticas de alta durabilidad del mismo color de tu diente. Un tratamiento completamente libre de metales que devuelve la anatomía y funcionalidad dental con total discreción, ideal para quienes buscan cuidar su salud estética en un entorno profesional.',
       features: ['Materiales libres de mercurio', 'Estética superior', 'Proceso rápido'],
       color: 'from-emerald-500 to-emerald-600',
       image: '/rellenos-esteticos.jpg',
@@ -80,9 +80,9 @@ export default function Services() {
     },
     {
       icon: Scissors,
-      title: 'Cirugía Oral y Maxilofacial',
-      description: 'Procedimientos quirúrgicos especializados incluyendo extracciones, cirugía de muelas del juicio y reconstrucción ósea.',
-      features: ['Cirujanos certificados', 'Sedación disponible', 'Recuperación rápida'],
+      title: 'Extracción de Cordales y Exodoncias',
+      description: 'La necesidad de una extracción dental o de cordales suele venir acompañada de dudas y molestia física. Abordamos las exodoncias en CAES bajo un enfoque clínico sumamente cuidadoso, priorizando tu confort y explicándote el proceso con total transparencia. Nos aseguramos de que experimentes un procedimiento eficiente y te brindamos un plan de recuperación guiado para que regreses a tu rutina con total tranquilidad.',
+      features: ['Enfoque clínico cuidadoso', 'Proceso explicado con transparencia', 'Plan de recuperación guiado'],
       color: 'from-slate-500 to-slate-600',
       image: '/image copy copy copy copy copy copy copy copy copy.png',
       serviceId: null,
@@ -116,8 +116,8 @@ export default function Services() {
           viewport={{ once: true, amount: 0.3 }}
           transition={{ duration: 0.6 }}
         >
-          <h2 className="mt-4 text-4xl sm:text-5xl font-bold text-dental-gray">
-            Nuestros Servicios
+          <h2 className="mt-4 text-4xl sm:text-5xl font-bold text-dental-gray text-balance">
+            Servicios dentales en Carretera al Salvador y Fraijanes
           </h2>
         </motion.div>
 

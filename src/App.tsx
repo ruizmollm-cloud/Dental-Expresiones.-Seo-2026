@@ -5,6 +5,7 @@ import Stats from './components/Stats';
 import Services from './components/Services';
 import FirstVisit from './components/FirstVisit';
 import Location from './components/Location';
+import FAQ from './components/FAQ';
 import CTASection from './components/CTASection';
 import Footer from './components/Footer';
 import ServicePage from './components/ServicePage';
@@ -22,6 +23,7 @@ function HomePage() {
       <Services />
       <FirstVisit />
       <Location />
+      <FAQ />
       <CTASection />
       <Footer />
     </>

@@ -49,17 +49,17 @@ const serviceData: Record<string, ServicePageData> = {
       {
         number: 1,
         title: 'Ficha médica digital',
-        description: 'Llenamos juntos tu historial médico y dental de forma digital para conocer tus antecedentes y necesidades específicas.',
+        description: 'Conversamos contigo y completamos juntos tu historial de forma sencilla. Es un momento para conocerte, entender lo que te preocupa y resolver cualquier duda antes de empezar.',
       },
       {
         number: 2,
         title: 'Scanner 3D',
-        description: 'Realizamos un escáner intraoral 3D que nos permite ver tu boca con total precisión, sin moldes incómodos.',
+        description: 'Tomamos un escáner intraoral rápido y sin molestias, sin moldes incómodos. Te mostramos las imágenes en pantalla para que veas con claridad el estado real de tu boca.',
       },
       {
         number: 3,
         title: 'Toma de fotografías',
-        description: 'Capturamos fotografías clínicas para documentar el estado actual de tu sonrisa y planificar mejoras.',
+        description: 'Capturamos fotografías clínicas para documentar tu punto de partida. Así puedes seguir tu progreso y entender, paso a paso, lo que proponemos y por qué.',
       },
       {
         number: 4,

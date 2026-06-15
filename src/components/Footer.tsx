@@ -1,54 +1,6 @@
 import { MapPin, Phone, Mail } from 'lucide-react';
-import { useEffect, useRef } from 'react';
 
 export default function Footer() {
-  const mapRef = useRef<HTMLDivElement>(null);
-
-  useEffect(() => {
-    const initMap = () => {
-      if (!mapRef.current || !window.google) return;
-
-      const location = { lat: 14.529788, lng: -90.464866 };
-
-      const map = new google.maps.Map(mapRef.current, {
-        center: location,
-        zoom: 17,
-        mapTypeControl: true,
-        streetViewControl: false,
-        fullscreenControl: false,
-        zoomControl: true,
-        mapTypeId: 'roadmap'
-      });
-
-      new google.maps.Marker({
-        position: location,
-        map: map,
-        title: 'Dental Expresiones',
-        icon: {
-          path: google.maps.SymbolPath.CIRCLE,
-          scale: 12,
-          fillColor: '#f97316',
-          fillOpacity: 1,
-          strokeColor: '#ffffff',
-          strokeWeight: 3,
-        }
-      });
-    };
-
-    if (window.google) {
-      initMap();
-    } else {
-      const checkGoogle = setInterval(() => {
-        if (window.google) {
-          clearInterval(checkGoogle);
-          initMap();
-        }
-      }, 100);
-
-      return () => clearInterval(checkGoogle);
-    }
-  }, []);
-
   return (
     <footer className="bg-slate-900 text-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
@@ -62,8 +14,9 @@ export default function Footer() {
               />
             </div>
             <p className="text-slate-400 leading-relaxed">
-              Tu salud dental es nuestra prioridad. Contamos con el mejor equipo de dentistas
-              comprometidos a cuidar la sonrisa de tu familia con la más alta tecnología.
+              Tu salud dental es nuestra prioridad. Un equipo cercano y profesional que cuida
+              la sonrisa de tu familia en Carretera a El Salvador, con un trato delicado y
+              explicaciones claras en cada visita.
             </p>
           </div>
 
@@ -89,13 +42,23 @@ export default function Footer() {
             <h4 className="text-lg font-bold mb-6">Ubicación</h4>
             <div className="space-y-4">
               <div className="rounded-lg overflow-hidden border border-slate-700 bg-slate-800">
-                <div ref={mapRef} className="h-48 w-full"></div>
+                <iframe
+                  title="Ubicación de Dental Expresiones"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3860.2859733575614!2d-90.5042696!3d14.6396821!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8589a3ab11e9f297%3A0x6b4fb2bbfd7398b1!2sDental%20Expresiones!5e0!3m2!1ses!2sgt!4v1718485200000!5m2!1ses!2sgt"
+                  width="100%"
+                  height="192"
+                  style={{ border: 0 }}
+                  allowFullScreen={true}
+                  loading="lazy"
+                  referrerPolicy="no-referrer-when-downgrade"
+                  className="h-48 w-full"
+                ></iframe>
               </div>
               <div className="flex items-start space-x-3">
                 <MapPin className="w-5 h-5 text-teal-400 flex-shrink-0 mt-1" />
                 <div className="flex flex-col space-y-2">
                   <p className="text-slate-300 leading-relaxed">
-                    Km 18.5, Carretera a El Salvador, Portal Solé, 2do nivel, local 15, Ciudad de Guatemala
+                    Dental Expresiones | Km 18.5, Carretera a El Salvador, Guatemala. | Teléfono: +502 5513-9358. Clínica dental en Carretera al Salvador, atendiendo la zona de Fraijanes y Santa Catarina Pinula.
                   </p>
                   <a
                     href="https://waze.com/ul/h9fxdtmj69"
