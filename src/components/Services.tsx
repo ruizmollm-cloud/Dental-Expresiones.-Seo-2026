@@ -65,7 +65,8 @@ export default function Services() {
       description: 'El diseño de carillas directas e indirectas es un proceso artesanal y clínico que requiere, ante todo, entender tus expectativas. En lugar de aplicar soluciones genéricas, nos tomamos el tiempo de escuchar y analizar la armonía de tu rostro. Diseñamos con precisión y delicadeza en CAES, asegurándote un resultado discreto y natural, guiado por profesionales que priorizan tu tranquilidad y el cuidado de tu salud en cada sesión.',
       features: ['Procedimiento en una sola sesión', 'Resultados inmediatos', 'Mínima preparación dental'],
       color: 'from-rose-500 to-rose-600',
-      image: '/carillas-dentales.png',
+      image: '/portada-servicios.png',
+      imgPosition: 'center 70%',
       serviceId: null,
     },
     {
@@ -84,7 +85,8 @@ export default function Services() {
       description: 'La necesidad de una extracción dental o de cordales suele venir acompañada de dudas y molestia física. Abordamos las exodoncias en CAES bajo un enfoque clínico sumamente cuidadoso, priorizando tu confort y explicándote el proceso con total transparencia. Nos aseguramos de que experimentes un procedimiento eficiente y te brindamos un plan de recuperación guiado para que regreses a tu rutina con total tranquilidad.',
       features: ['Enfoque clínico cuidadoso', 'Proceso explicado con transparencia', 'Plan de recuperación guiado'],
       color: 'from-slate-500 to-slate-600',
-      image: '/image copy copy copy copy copy copy copy copy copy.png',
+      image: '/extraccion-cordales.png',
+      imgPosition: 'center',
       serviceId: null,
     },
   ];
@@ -139,7 +141,8 @@ export default function Services() {
                       <img
                         src={service.image}
                         alt={service.title}
-                        className="w-full h-full object-cover object-top group-hover:scale-110 transition-transform duration-300"
+                        style={{ objectPosition: (service as any).imgPosition || 'top' }}
+                        className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
                       />
                       <div className="absolute inset-0 bg-gradient-to-t md:bg-gradient-to-r from-black/30 to-transparent"></div>
                     </div>
