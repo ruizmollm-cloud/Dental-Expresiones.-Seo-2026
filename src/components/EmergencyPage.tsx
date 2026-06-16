@@ -70,7 +70,7 @@ export default function EmergencyPage() {
     <div className="min-h-screen bg-white">
       <Header />
 
-      <section className="pt-32 pb-16 px-4 sm:px-6 lg:px-8 relative overflow-hidden bg-cover bg-center" style={{ backgroundImage: 'url(/Assets/image.png)' }}>
+      <section className="pt-32 pb-16 px-4 sm:px-6 lg:px-8 relative overflow-hidden bg-cover bg-center" style={{ backgroundImage: 'url(/portada-servicios.png)' }}>
         <div className="absolute inset-0 bg-dental-gray/30"></div>
 
         <div className="max-w-4xl mx-auto relative z-10">
