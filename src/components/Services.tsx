@@ -34,7 +34,7 @@ export default function Services() {
       icon: Microscope,
       title: 'Primera Consulta',
       description: 'El primer paso hacia tu sonrisa, con claridad y calma. Una evaluación completa donde te explicamos cada hallazgo y diseñamos un plan a tu medida, sin prisas ni tecnicismos.',
-      features: ['Scanner 3D', 'Evaluación completa', 'Plan de tratamiento personalizado'],
+      features: ['Evaluación y diagnóstico clínico', 'Radiografías periapicales o escáner 3D cuando se requieran', 'Plan de tratamiento personalizado'],
       color: 'from-blue-500 to-blue-600',
       image: '/primera-consulta.png',
       serviceId: 'primera-consulta',
