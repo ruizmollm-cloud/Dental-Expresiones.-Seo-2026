@@ -137,7 +137,7 @@ export default function Services() {
               >
                 <div className="flex flex-col md:flex-row">
                   {service.image ? (
-                    <div className="md:w-1/2 h-64 md:h-auto relative overflow-hidden">
+                    <div className="md:w-1/2 h-64 md:h-80 md:self-center relative overflow-hidden">
                       <img
                         src={service.image}
                         alt={service.title}
