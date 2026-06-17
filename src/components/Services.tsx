@@ -136,9 +136,9 @@ export default function Services() {
                 whileInView="visible"
                 viewport={{ once: true, amount: 0.3 }}
               >
-                <div className="flex flex-col md:flex-row md:h-96">
+                <div className="flex flex-col md:flex-row md:min-h-96">
                   {service.image ? (
-                    <div className="md:w-1/2 h-64 md:h-full relative overflow-hidden">
+                    <div className="md:w-1/2 h-64 md:h-auto relative overflow-hidden">
                       <img
                         src={service.image}
                         alt={service.title}
@@ -152,7 +152,7 @@ export default function Services() {
                       <div className="absolute inset-0 bg-gradient-to-t md:bg-gradient-to-r from-black/30 to-transparent"></div>
                     </div>
                   ) : (
-                    <div className={`md:w-1/2 h-64 md:h-full bg-gradient-to-br ${service.color} flex items-center justify-center relative overflow-hidden`}>
+                    <div className={`md:w-1/2 h-64 md:h-auto bg-gradient-to-br ${service.color} flex items-center justify-center relative overflow-hidden`}>
                       <div className="absolute inset-0 bg-black/10"></div>
                       <Icon className="w-24 h-24 text-white relative z-10 group-hover:scale-110 transition-transform duration-300" />
                     </div>
