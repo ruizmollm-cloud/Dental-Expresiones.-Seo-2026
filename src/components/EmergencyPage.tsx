@@ -28,7 +28,7 @@ export default function EmergencyPage() {
     {
       number: 1,
       title: 'Agenda tu cita',
-      description: 'Reserva tu cita de emergencia en línea. Las citas del mismo día están disponibles tan pronto como una hora después de contactarnos. Los pacientes existentes también pueden recibir actualizaciones por correo electrónico y mensaje de texto.'
+      description: 'Reserva tu cita de emergencia. Cuéntanos qué está pasando y te atenderemos lo antes posible, con citas disponibles el mismo día dentro de nuestros horarios de atención.'
     },
     {
       number: 2,
