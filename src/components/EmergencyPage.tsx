@@ -62,7 +62,7 @@ export default function EmergencyPage() {
     },
     {
       question: '¿Cuánto cuesta un examen de emergencia?',
-      answer: 'El costo del examen de emergencia varía según la complejidad del caso y el tratamiento necesario. Durante tu visita inicial, te proporcionaremos un presupuesto detallado antes de proceder con cualquier tratamiento. Contáctanos para obtener información específica sobre costos.'
+      answer: 'El costo del examen de emergencia depende de si se requiere abrir un espacio prioritario o no. Contáctanos para conocer la <a href="https://wa.me/50255139358?text=Hola,%20quiero%20verificar%20disponibilidad%20y%20costo%20de%20un%20examen%20de%20emergencia" target="_blank" rel="noopener noreferrer" className="text-dental-teal hover:text-dental-teal/80 font-semibold underline transition-colors">disponibilidad y costo de tu examen de emergencia</a> según tu caso.'
     }
   ];
 
@@ -279,9 +279,9 @@ export default function EmergencyPage() {
                 </button>
                 {openFaq === index && (
                   <div className="px-8 pb-6">
-                    <p className="text-dental-gray/80 leading-relaxed">
-                      {faq.answer}
-                    </p>
+                    <div className="text-dental-gray/80 leading-relaxed">
+                      {typeof faq.answer === 'string' ? <p>{faq.answer}</p> : faq.answer}
+                    </div>
                   </div>
                 )}
               </motion.div>
