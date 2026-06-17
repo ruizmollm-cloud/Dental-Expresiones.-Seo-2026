@@ -98,7 +98,7 @@ const serviceData: Record<string, ServicePageData> = {
       },
       {
         question: '¿La primera consulta incluye limpieza dental?',
-        answer: 'La limpieza es opcional en la misma cita. Si tu agenda y diagnóstico lo permiten, podemos realizarla el mismo día para que aproveches al máximo tu visita.',
+        answer: 'La limpieza es opcional en la misma cita. Si tu agenda y diagnóstico lo permiten, podemos realizarla el mismo día para que aproveches al máximo tu visita. (+ 30 minutos)',
       },
       {
         question: '¿Cuánto cuesta la primera consulta?',
