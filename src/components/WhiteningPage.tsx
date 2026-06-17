@@ -17,11 +17,11 @@ export default function WhiteningPage() {
   }, []);
 
   const benefits = [
-    'Resultados visibles en solo 90 minutos',
-    'Tratamiento profesional seguro y efectivo',
-    'Proceso cómodo y sin dolor',
-    'Sonrisa hasta 8 tonos más blanca',
-    'Dental Expresiones tiene la solución perfecta'
+    '60 minutos para una sonrisa notablemente más brillante',
+    'Tecnología Pola Rapid con respaldo profesional',
+    'Resultado adaptado al tono natural y salud de tus dientes',
+    'Diferencia de tonos visible',
+    'Consulta y limpieza dental previa requerida'
   ];
 
   const steps = [
@@ -129,7 +129,7 @@ export default function WhiteningPage() {
               transition={{ duration: 0.6 }}
             >
               <h2 className="text-3xl sm:text-4xl font-bold text-dental-gray mb-6">
-                Una Sonrisa Más Brillante<br />en 90 Minutos:<br />Fácil como 1-2-3
+                Una Sonrisa Más Brillante<br />en 60 Minutos:<br />Fácil como 1-2-3
               </h2>
 
               <ul className="space-y-4">
