@@ -70,7 +70,7 @@ export default function WhiteningPage() {
     },
     {
       question: '¿Cómo funciona el mejor blanqueamiento dental?',
-      answer: 'Utilizamos el sistema Pola Rapid, que combina un gel blanqueador profesional de alta calidad con tecnología de activación. El proceso incluye pre-pulido, aplicación de barrera protectora en las encías, y cuatro sesiones de 8 minutos con el gel blanqueador para resultados óptimos y seguros.'
+      answer: 'Utilizamos el pulidor de aire para eliminar manchas externas. El amarillamiento de los dientes proviene de manchas tanto internas como externas. El gel blanqueador penetra la capa exterior del diente y oxida las moléculas que causan las manchas en las capas internas, logrando un tono más blanco. A mayor concentración del gel, mayor es la oxidación.'
     },
     {
       question: '¿Qué sucede si mis dientes no se blanquean?',
