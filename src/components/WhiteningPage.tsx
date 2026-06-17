@@ -61,6 +61,10 @@ export default function WhiteningPage() {
       )
     },
     {
+      question: '¿Por qué necesito una consulta y limpieza dental antes del blanqueamiento?',
+      answer: 'Hay dos razones importantes. Primero, si aún no eres paciente nuestro, necesitamos evaluarte y conocer tu caso para recomendarte la mejor opción. Segundo, la limpieza es indispensable: el sarro y la placa actúan como una barrera que impide que el gel blanqueador actúe de forma uniforme, lo que puede generar resultados irregulares. Una superficie limpia permite que el agente blanqueador penetre mejor y de forma más pareja. Además, es necesario esperar a que tus encías estén completamente sanas: sin inflamación ni sangrado. Cuando las encías están inflamadas cubren parte del diente, y al estar sanas y desinflamadas queda expuesta toda la superficie que necesitamos tratar para un resultado óptimo.'
+    },
+    {
       question: '¿Qué debo hacer para prepararme para mi cita?',
       answer: 'Es recomendable cepillarse los dientes antes de la cita. Evita consumir alimentos y bebidas que puedan manchar los dientes (café, té, vino tinto) en las 24 horas previas. Si tienes sensibilidad dental, háznoslo saber para tomar precauciones adicionales.'
     },
