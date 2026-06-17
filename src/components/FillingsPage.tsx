@@ -187,7 +187,7 @@ export default function FillingsPage() {
         </div>
       </section>
 
-      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-coral-400 to-coral-500 relative overflow-hidden">
+      <section className="py-16 px-4 sm:px-6 lg:px-8 relative overflow-hidden" style={{ backgroundColor: '#4A8C7A' }}>
         <div className="absolute inset-0 opacity-20">
           <div className="absolute top-0 left-10 w-4 h-4 bg-yellow-400 rounded-full"></div>
           <div className="absolute top-20 right-40 w-3 h-3 bg-teal-300 rounded-full"></div>
@@ -197,7 +197,7 @@ export default function FillingsPage() {
 
         <div className="max-w-4xl mx-auto relative z-10">
           <motion.h2
-            className="text-3xl sm:text-4xl font-bold text-dental-gray text-center mb-12"
+            className="text-3xl sm:text-4xl font-bold text-white text-center mb-12"
             initial={{ y: 30, opacity: 0 }}
             whileInView={{ y: 0, opacity: 1 }}
             viewport={{ once: true }}
@@ -244,7 +244,7 @@ export default function FillingsPage() {
               onClick={() => {
                 window.location.href = '/#contacto';
               }}
-              className="bg-dental-gray text-white px-8 py-4 rounded-full font-semibold text-lg hover:bg-dental-gray/90 transition-all duration-300 hover:scale-105"
+              className="bg-dental-teal text-white px-8 py-4 rounded-full font-semibold text-lg hover:bg-dental-teal/90 transition-all duration-300 hover:scale-105"
             >
               Agendar Ahora
             </button>
@@ -252,10 +252,10 @@ export default function FillingsPage() {
         </div>
       </section>
 
-      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-coral-300">
+      <section className="py-16 px-4 sm:px-6 lg:px-8" style={{ backgroundColor: '#7AAF9A' }}>
         <div className="max-w-4xl mx-auto">
           <motion.h2
-            className="text-3xl sm:text-4xl font-bold text-dental-gray text-center mb-12"
+            className="text-3xl sm:text-4xl font-bold text-white text-center mb-12"
             initial={{ y: 30, opacity: 0 }}
             whileInView={{ y: 0, opacity: 1 }}
             viewport={{ once: true }}
