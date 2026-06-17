@@ -192,12 +192,11 @@ export default function WhiteningPage() {
             >
               <div className="relative rounded-2xl overflow-hidden shadow-2xl h-[240px] sm:h-[320px] lg:h-[400px] max-w-sm mx-auto lg:max-w-none">
                 <img
-                  src="/blanqueamiento-dental.png"
+                  src="/images/blanqueamiento-dental.jpg"
                   alt="Blanqueamiento dental profesional"
                   width={800}
                   height={600}
-                  loading="eager"
-                  fetchPriority="high"
+                  loading="lazy"
                   decoding="async"
                   className="w-full h-full object-cover"
                 />
