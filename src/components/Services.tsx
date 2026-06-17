@@ -43,7 +43,7 @@ export default function Services() {
       icon: Sparkles,
       title: 'Blanqueamiento Dental',
       description: 'Tomar la decisión de iluminar tu sonrisa debe ser una experiencia cómoda y sin sorpresas. Nuestro enfoque en blanqueamiento dental en Carretera al Salvador se centra en el cuidado minucioso de tu sensibilidad. Evaluamos tu caso con total claridad, explicándote el proceso paso a paso para que recuperes un tono brillante y natural en un ambiente de absoluta calma, confianza y respaldo profesional.',
-      features: ['Evaluación y diagnóstico clínico', 'Radiografías periapicales o escáner 3D cuando se requieran', 'Plan de tratamiento personalizado'],
+      features: ['Sesión de aproximadamente 1 hora', 'Consulta y limpieza dental previa requerida', 'Máximo blanqueamiento posible de forma segura, adaptado a tu tono natural'],
       color: 'from-teal-500 to-teal-600',
       image: '/blanqueamiento-dental.png',
       serviceId: 'blanqueamiento',
