@@ -33,7 +33,7 @@ export default function EmergencyPage() {
     {
       number: 2,
       title: 'Examen Inicial (60 minutos)',
-      description: 'Nuestro equipo de expertos tomará radiografías para que tu dentista pueda identificar rápidamente la causa raíz y crear un plan de atención personalizado. Revisaremos los siguientes pasos y el costo contigo, en términos claros y simples.'
+      description: 'Tu dentista evaluará tu caso y se apoyará en las herramientas que considere necesarias —radiografías, escáner 3D u otros recursos— para diagnosticarte con precisión y definir tu plan de atención. Todo te lo explicaremos de forma clara, incluyendo costos y próximos pasos.'
     },
     {
       number: 3,
