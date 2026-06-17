@@ -50,7 +50,7 @@ export default function EmergencyPage() {
   const faqs = [
     {
       question: '¿Qué sucede durante un examen de emergencia?',
-      answer: 'Durante tu examen de emergencia, nuestro equipo realizará una evaluación completa que incluye radiografías digitales, examen visual detallado y diagnóstico del problema. Te explicaremos el tratamiento necesario y responderemos todas tus preguntas antes de proceder.'
+      answer: 'Tu dentista evaluará tu caso y usará los recursos diagnósticos que sean necesarios —como radiografías o escáner 3D— para identificar la causa del problema. A partir de ahí, controlará la emergencia y, si se requiere, definirá un plan de tratamiento para el seguimiento, explicándote todo en términos claros y simples.'
     },
     {
       question: '¿Cuándo debo ir al dentista por una emergencia?',
