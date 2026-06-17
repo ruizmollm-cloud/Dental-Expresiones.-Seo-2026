@@ -75,7 +75,7 @@ export default function Services() {
       description: 'Restauración avanzada utilizando resinas estéticas de alta durabilidad del mismo color de tu diente. Un tratamiento completamente libre de metales que devuelve la anatomía y funcionalidad dental con total discreción, ideal para quienes buscan cuidar su salud estética en un entorno profesional.',
       features: ['Materiales libres de mercurio', 'Estética superior', 'Proceso rápido'],
       color: 'from-emerald-500 to-emerald-600',
-      image: '/rellenos-esteticos.jpg',
+      image: '/images/rellenos-esteticos.jpg',
       serviceId: 'rellenos-esteticos',
       customRoute: '/rellenos-esteticos',
     },

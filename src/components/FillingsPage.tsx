@@ -176,7 +176,7 @@ export default function FillingsPage() {
             >
               <div className="relative rounded-2xl overflow-hidden shadow-2xl h-[500px]">
                 <img
-                  src="/rellenos-esteticos.jpg"
+                  src="/images/rellenos-esteticos.jpg"
                   alt="Rellenos estéticos"
                   className="w-full h-full object-cover"
                 />
