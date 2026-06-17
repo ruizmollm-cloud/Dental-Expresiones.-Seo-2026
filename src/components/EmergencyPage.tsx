@@ -38,7 +38,7 @@ export default function EmergencyPage() {
     {
       number: 3,
       title: 'Tratamiento',
-      description: 'Procederemos con el tratamiento de emergencia necesario para aliviar tu dolor y resolver el problema dental. Nuestro equipo te explicará cada paso del proceso.'
+      description: 'Procederemos con el tratamiento de emergencia necesario para aliviar tu dolor y resolver el problema dental.'
     },
     {
       number: 4,
