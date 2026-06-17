@@ -94,7 +94,7 @@ const serviceData: Record<string, ServicePageData> = {
       },
       {
         question: '¿Qué debo llevar a mi primera cita?',
-        answer: 'Solo necesitas llegar puntual y, si tienes radiografías o estudios dentales recientes, traerlos. Nosotros nos encargamos del resto: ficha digital, scanner 3D y todo el material clínico.',
+        answer: 'Solo necesitas llegar puntual con tu DPI o el de tu apoderado. Si eres extranjero, trae un documento de identificación vigente. Si tienes radiografías o estudios dentales recientes, tráelos también. Nosotros nos encargamos del resto: ficha digital, escáner 3D y todo el material clínico.',
       },
       {
         question: '¿La primera consulta incluye limpieza dental?',
