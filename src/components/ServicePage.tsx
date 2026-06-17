@@ -39,8 +39,8 @@ const serviceData: Record<string, ServicePageData> = {
     headline: 'El primer paso hacia tu sonrisa perfecta, con claridad y calma',
     benefits: [
       'Evaluación integral de 60 minutos',
-      'Scanner 3D para diagnóstico digital preciso',
-      'Toma de fotografías y radiografías si son necesarias',
+      'Fotografías clínicas',
+      'Radiografías periapicales o escáner 3D según criterio del doctor',
       'Plan de tratamiento explicado con claridad',
       'Limpieza dental opcional en la misma cita',
     ],
