@@ -45,7 +45,20 @@ export default function WhiteningPage() {
   const faqs = [
     {
       question: '¿Cuánto tiempo toma el blanqueamiento dental y cuánto cuesta?',
-      answer: 'Nuestro tratamiento de blanqueamiento profesional toma aproximadamente 90 minutos en una sola visita. El costo varía según el tipo de tratamiento. Contáctanos para obtener información específica sobre precios y opciones de pago disponibles.'
+      answer: (
+        <>
+          Nuestro tratamiento de blanqueamiento profesional toma aproximadamente 60 minutos en una sola visita. El costo varía según el tipo de tratamiento.{' '}
+          <a
+            href="https://wa.me/50255139358?text=Hola,%20quiero%20información%20sobre%20el%20costo%20del%20blanqueamiento%20dental%20y%20las%20opciones%20de%20pago%20disponibles"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-dental-teal underline hover:no-underline"
+          >
+            Contáctanos para obtener información específica sobre precios y opciones de pago disponibles
+          </a>
+          .
+        </>
+      )
     },
     {
       question: '¿Qué debo hacer para prepararme para mi cita?',
