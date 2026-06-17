@@ -23,7 +23,7 @@ export default function Services() {
     {
       icon: AlertCircle,
       title: 'Examen de Emergencia',
-      description: 'Atención dental urgente cuando más la necesitas. Tratamos dolor dental agudo, traumatismos y emergencias dentales con atención inmediata.',
+      description: 'Atención dental urgente cuando más la necesitas. Tratamos dolor dental agudo, traumatismos y emergencias dentales.',
       features: ['Atención inmediata', 'Alivio rápido del dolor', 'Disponible en horarios extendidos'],
       color: 'from-red-500 to-red-600',
       image: '/Dolor_Dental.jpg',
