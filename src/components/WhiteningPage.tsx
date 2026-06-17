@@ -69,7 +69,7 @@ export default function WhiteningPage() {
     },
     {
       question: '¿En qué se diferencia el blanqueamiento en Dental Expresiones de otros lugares?',
-      answer: 'En Dental Expresiones utilizamos tecnología de vanguardia con el sistema Pola Rapid, ofrecemos atención personalizada por profesionales experimentados, garantizamos un ambiente cómodo y seguro, y proporcionamos instrucciones detalladas de cuidado posterior. Nuestro enfoque integral asegura resultados óptimos y duraderos.'
+      answer: 'En Dental Expresiones priorizamos tu salud dental sobre la estética. Buscamos el mayor blanqueamiento posible, pero nunca a costa de tus dientes. Si un tono más blanco puede afectarte, te lo diremos con honestidad y trabajaremos hasta el límite que sea seguro para ti.'
     }
   ];
 
