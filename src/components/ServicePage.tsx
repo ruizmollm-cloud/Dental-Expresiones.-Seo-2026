@@ -84,7 +84,7 @@ const serviceData: Record<string, ServicePageData> = {
       {
         number: 8,
         title: 'Limpieza opcional',
-        description: 'Si lo deseas, realizamos tu limpieza dental en la misma cita para que aproveches al máximo tu visita.',
+        description: 'Si lo deseas, al agendar tu cita puedes programar una limpieza dental en la misma visita para aprovechar al máximo tu tiempo.',
       },
     ],
     faqs: [
