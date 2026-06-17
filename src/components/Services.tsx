@@ -85,7 +85,7 @@ export default function Services() {
       description: 'La necesidad de una extracción dental o de cordales suele venir acompañada de dudas y molestia física. Abordamos las exodoncias en CAES bajo un enfoque clínico sumamente cuidadoso, priorizando tu confort y explicándote el proceso con total transparencia. Nos aseguramos de que experimentes un procedimiento eficiente y te brindamos un plan de recuperación guiado para que regreses a tu rutina con total tranquilidad.',
       features: ['Enfoque clínico cuidadoso', 'Proceso explicado con transparencia', 'Control de la emergencia / seguimiento'],
       color: 'from-slate-500 to-slate-600',
-      image: '/extraccion-cordales.png',
+      image: '/images/exodoncia-cordales.jpg',
       imgPosition: 'center',
       serviceId: null,
     },
