@@ -90,7 +90,7 @@ const serviceData: Record<string, ServicePageData> = {
     faqs: [
       {
         question: '¿Cuál es la duración de mi primera consulta?',
-        answer: 'La duración de la evaluación inicial es de 60 minutos. Nos tomamos ese tiempo para hacer una correcta evaluación de tu diagnóstico, así mismo para conocerte y resolver cualquier duda que tengas.',
+        answer: 'La duración de la evaluación inicial es de 30 minutos. Nos tomamos ese tiempo para hacer una correcta evaluación de tu diagnóstico, así mismo para conocerte y resolver cualquier duda que tengas.',
       },
       {
         question: '¿Qué debo llevar a mi primera cita?',
