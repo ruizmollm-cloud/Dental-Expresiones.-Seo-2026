@@ -110,7 +110,7 @@ export default function EmergencyPage() {
                 href="https://wa.me/50255139358?text=Hola%20Dental%20Expresiones%2C%20necesito%20atención%20de%20emergencia%20dental"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="bg-dental-gray text-white px-8 py-4 rounded-full font-semibold text-lg hover:bg-dental-gray/90 transition-all duration-300 hover:scale-105"
+              className="bg-dental-teal text-white px-8 py-4 rounded-full font-semibold text-lg hover:bg-dental-teal/90 transition-all duration-300 hover:scale-105"
               >
                 Agendar Cita de Emergencia
               </a>
@@ -257,7 +257,7 @@ export default function EmergencyPage() {
         </div>
       </section>
 
-      <section className="py-16 px-4 sm:px-6 lg:px-8" style={{ backgroundColor: '#2D6B5A' }}>
+      <section className="py-16 px-4 sm:px-6 lg:px-8" style={{ backgroundColor: '#7AAF9A' }}>
         <div className="max-w-4xl mx-auto">
           <motion.h2
             className="text-3xl sm:text-4xl font-bold text-white text-center mb-12"
