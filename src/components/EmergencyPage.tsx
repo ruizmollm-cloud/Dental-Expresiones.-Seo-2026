@@ -179,10 +179,15 @@ export default function EmergencyPage() {
               viewport={{ once: true }}
               transition={{ duration: 0.6 }}
             >
-              <div className="relative rounded-2xl overflow-hidden shadow-2xl h-[400px]">
+              <div className="relative rounded-2xl overflow-hidden shadow-2xl h-[240px] sm:h-[320px] lg:h-[400px] max-w-sm mx-auto lg:max-w-none">
                 <img
                   src="/Dolor_Dental.jpg"
                   alt="Paciente dental de emergencia"
+                  width={800}
+                  height={600}
+                  loading="eager"
+                  fetchPriority="high"
+                  decoding="async"
                   className="w-full h-full object-cover"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent"></div>

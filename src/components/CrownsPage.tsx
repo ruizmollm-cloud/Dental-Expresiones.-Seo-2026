@@ -175,6 +175,11 @@ export default function CrownsPage() {
                 <img
                   src="/coronas_y_puentes.jpg"
                   alt="Coronas y puentes dentales"
+                  width={800}
+                  height={600}
+                  loading="eager"
+                  fetchPriority="high"
+                  decoding="async"
                   className="w-full h-full object-cover"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent"></div>

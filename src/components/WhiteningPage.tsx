@@ -194,6 +194,11 @@ export default function WhiteningPage() {
                 <img
                   src="/blanqueamiento-dental.png"
                   alt="Blanqueamiento dental profesional"
+                  width={800}
+                  height={600}
+                  loading="eager"
+                  fetchPriority="high"
+                  decoding="async"
                   className="w-full h-full object-cover"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent"></div>
