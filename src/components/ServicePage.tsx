@@ -42,7 +42,7 @@ const serviceData: Record<string, ServicePageData> = {
       'Fotografías clínicas',
       'Radiografías periapicales o escáner 3D según criterio del doctor',
       'Plan de tratamiento explicado con claridad',
-      'Limpieza dental opcional en la misma cita',
+      'Limpieza dental opcional en la misma cita (+30 minutos)',
     ],
     stepsTitle: 'Cómo es tu Primera Consulta Paso a Paso',
     steps: [
