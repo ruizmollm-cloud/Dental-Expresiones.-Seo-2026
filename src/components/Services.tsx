@@ -24,7 +24,7 @@ export default function Services() {
       icon: AlertCircle,
       title: 'Examen de Emergencia',
       description: 'Atención dental urgente cuando más la necesitas. Tratamos dolor dental agudo, traumatismos y emergencias dentales.',
-      features: ['Atención inmediata', 'Alivio rápido del dolor', 'Disponible en horarios extendidos'],
+      features: ['Evaluación y diagnóstico clínico', 'Radiografías periapicales o escáner 3D si se consideran necesarias', 'Control de la emergencia / Seguimiento'],
       color: 'from-red-500 to-red-600',
       image: '/Dolor_Dental.jpg',
       serviceId: 'emergencias',
