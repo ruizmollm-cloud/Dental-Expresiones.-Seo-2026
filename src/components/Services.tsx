@@ -65,7 +65,7 @@ export default function Services() {
       description: 'El diseño de carillas directas e indirectas es un proceso artesanal y clínico que requiere, ante todo, entender tus expectativas. En lugar de aplicar soluciones genéricas, nos tomamos el tiempo de escuchar y analizar la armonía de tu rostro. Diseñamos con precisión y delicadeza en CAES, asegurándote un resultado discreto y natural, guiado por profesionales que priorizan tu tranquilidad y el cuidado de tu salud en cada sesión.',
       features: ['Procedimiento en una sola sesión', 'Resultados inmediatos', 'Mínima preparación dental'],
       color: 'from-rose-500 to-rose-600',
-      image: '/portada-servicios.png',
+      image: '/images/carillas-dentales.jpg',
       imgPosition: 'center 70%',
       serviceId: null,
     },
