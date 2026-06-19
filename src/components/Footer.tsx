@@ -58,7 +58,10 @@ export default function Footer() {
                 <MapPin className="w-5 h-5 text-teal-400 flex-shrink-0 mt-1" />
                 <div className="flex flex-col space-y-2">
                   <p className="text-slate-300 leading-relaxed">
-                    Dental Expresiones | Km 18.5, Carretera a El Salvador, Guatemala. | Teléfono: +502 5513-9358. Clínica dental en Carretera al Salvador, atendiendo la zona de Fraijanes y Santa Catarina Pinula.
+                    Portal Solé, Km 18.5, Carr. a El Salvador local 15, Guatemala 01062
+                  </p>
+                  <p className="text-slate-400 text-sm leading-relaxed">
+                    Clínica dental en Carretera al Salvador, atendiendo la zona de Fraijanes y Santa Catarina Pinula.
                   </p>
                   <a
                     href="https://waze.com/ul/h9fxdtmj69"
