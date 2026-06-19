@@ -44,7 +44,7 @@ export default function Footer() {
               <div className="rounded-lg overflow-hidden border border-slate-700 bg-slate-800">
                 <iframe
                   title="Ubicación de Dental Expresiones"
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3860.2859733575614!2d-90.5042696!3d14.6396821!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8589a3ab11e9f297%3A0x6b4fb2bbfd7398b1!2sDental%20Expresiones!5e0!3m2!1ses!2sgt!4v1718485200000!5m2!1ses!2sgt"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3862.2173863491644!2d-90.46749472511578!3d14.529554485948443!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8589a5e5f6d4708f%3A0x44802ce9352f8ebd!2sDental%20Expresiones!5e0!3m2!1ses!2sgt!4v1781887227228!5m2!1ses!2sgt"
                   width="100%"
                   height="192"
                   style={{ border: 0 }}

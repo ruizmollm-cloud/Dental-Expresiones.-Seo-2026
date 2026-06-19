@@ -31,7 +31,7 @@ export default function Location() {
             <div className="overflow-hidden rounded-2xl">
               <iframe
                 title="Ubicación de Dental Expresiones en Portal Solé, Carretera a El Salvador"
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3861.6424564883584!2d-90.46738982485303!3d14.534214178125868!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8589a3f2d2b67f1b%3A0x6a2e2d8b4e7e6f8d!2sPortal%20Sol%C3%A9!5e0!3m2!1ses-419!2sgt!4v1718492000000!5m2!1ses-419!2sgt"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3862.2173863491644!2d-90.46749472511578!3d14.529554485948443!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8589a5e5f6d4708f%3A0x44802ce9352f8ebd!2sDental%20Expresiones!5e0!3m2!1ses!2sgt!4v1781887227228!5m2!1ses!2sgt"
                 width="100%"
                 height="450"
                 style={{ border: 0, borderRadius: '12px' }}
