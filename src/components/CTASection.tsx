@@ -48,17 +48,11 @@ export default function CTASection() {
                 ¿Listo Para Transformar Tu Sonrisa?
               </h2>
               <p className="text-lg text-teal-50 mb-8">
-                Agenda tu primera cita y recibe una valoración completa sin costo. Nuestro equipo te espera
+                Agenda tu primera cita y recibe una valoración completa. Nuestro equipo te espera
                 para diseñar el plan de tratamiento perfecto para ti.
               </p>
 
               <div className="space-y-4">
-                <div className="flex items-start space-x-3">
-                  <div className="w-6 h-6 rounded-full bg-white/20 flex items-center justify-center flex-shrink-0 mt-0.5">
-                    <Check className="w-4 h-4" />
-                  </div>
-                  <span className="text-teal-50">Primera consulta sin costo</span>
-                </div>
                 <div className="flex items-start space-x-3">
                   <div className="w-6 h-6 rounded-full bg-white/20 flex items-center justify-center flex-shrink-0 mt-0.5">
                     <Check className="w-4 h-4" />
