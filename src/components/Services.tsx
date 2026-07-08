@@ -68,7 +68,8 @@ export default function Services() {
       color: 'from-rose-500 to-rose-600',
       image: '/images/carillas-dentales.jpg',
       imgPosition: 'center 70%',
-      serviceId: null,
+      serviceId: 'diseno-de-sonrisa-carillas',
+      customRoute: '/diseno-de-sonrisa-carillas',
     },
     {
       icon: FileText,

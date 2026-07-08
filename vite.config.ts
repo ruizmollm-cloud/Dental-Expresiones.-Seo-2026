@@ -9,6 +9,7 @@ const routes = [
   '/blanqueamiento',
   '/rellenos-esteticos',
   '/coronas-puentes',
+  '/diseno-de-sonrisa-carillas',
   '/servicio/primera-consulta',
 ]
 

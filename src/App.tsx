@@ -13,6 +13,7 @@ import EmergencyPage from './components/EmergencyPage';
 import WhiteningPage from './components/WhiteningPage';
 import FillingsPage from './components/FillingsPage';
 import CrownsPage from './components/CrownsPage';
+import VeneersPage from './components/VeneersPage';
 
 function HomePage() {
   return (
@@ -41,6 +42,7 @@ function App() {
           <Route path="/blanqueamiento" element={<WhiteningPage />} />
           <Route path="/rellenos-esteticos" element={<FillingsPage />} />
           <Route path="/coronas-puentes" element={<CrownsPage />} />
+          <Route path="/diseno-de-sonrisa-carillas" element={<VeneersPage />} />
         </Routes>
       </div>
     </Router>
